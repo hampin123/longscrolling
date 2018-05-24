@@ -1,0 +1,28 @@
+
+
+
+
+
+/* navigation */
+Nav >ul >li>a:link {color:white; background-color: black; height: 100px;}
+Nav >ul >li>a:hover {color:white; background-color: black;}
+Nav >ul >li>a:active {color:white; background-color: black;}
+Nav >ul >li>a:visited {color:white; background-color: black;}
+
+#logo{width:150px; height:100px; background-color: red; background-image: url("https://placeimg.com/300/300/people"); background-size: cover;}
+p,h2,h4{text-align: center;
+}
+
+body{
+  background-color: lightgrey;
+}
+
+hr{border-color: black;
+  border-width: thick;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Kaushan Script', cursive;}
+
+p{
+  font-family: 'PT Serif', seriff;}
