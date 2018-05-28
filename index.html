@@ -7,91 +7,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>LongScrolling Page</title>
+  <link href="css/um.css" rel="stylesheet">
 <style id="jsbin-css">
-#canvas{
-  width:400px;
-  height:10000px;
-  margin:0 auto;
-  position:relative;
-
-}
-
 
 body{
   background-color: grey;
   background-image: url(background.jpg);
    background-size: cover;
 }
-
-#counter{
-  border:2px solid blue;
-  background-color:blue;
-  color:white;
-  width:200px;
-  height:30px;
-  top:123px;
-  left:90px;
-  position:absolute;
-  z-index:-1;
-  opacity:0.9;
-}
-
-h1{  border:2px solid blue;
-     background-color:yellow;
-     position:absolute;
-     width:200px;
-     height:30px;
-     top:120px;
-     left:100px;
-     z-index:-2;
-     opacity:0.9;
-}
-
-h2{  border:2px solid blue;
-     background-color:yellow;
-     position:absolute;
-     width:200px;
-     height:120px;
-     top:2700px;
-     left:100px;
-     z-index:-2;
-     opacity:0.9;
-}
-
-h3{  border:2px solid blue;
-     background-color:yellow;
-     position:absolute;
-     width:200px;
-     height:150px;
-     top:5300px;
-     left:100px;
-     z-index:-2;
-     opacity:0.9;
-}
-
-#star{
-
-     position:absolute;
-     width:200px;
-     height:150px;
-     top:6500px;
-     left:300px;
-
-     opacity:0.9;}
-
-
-#icon {width:300px;
-  position:absolute;
-  top:200px;
-  left:50px;
-}
-
-
-/* relative, absolute, fixed, static
-http://www.barelyfitz.com/screencast/html-training/css/positioning/
-http://jsbin.com/yicata/2/
-*/
 </style>
+
+
 </head>
 <body>
 
@@ -107,50 +33,6 @@ http://jsbin.com/yicata/2/
 
   </div>
 
-<script id="jsbin-javascript">
-var canvas = document.getElementById("canvas");
-var counter = document.getElementById("counter");
-var icon = document.getElementById("icon");
-
-window.onscroll = function(){
-
-
-  var y = window.pageYOffset;
-
-  console.log(y);
-
-  counter.style.top = 400 + y * .97 + "px";
-
-  counter.innerHTML = y + "px";
-
-  if (y > 2000) {
-    counter.style.backgroundColor = "green";
-  }else{
-    counter.style.backgroundColor = "blue";}
-
-    icon.style.top = 200 + y  + "px";
-
-  if(y < 2000){
-
-      icon.src="meteor.png";
-
-  }
-
-
-  else if(y < 9000){
-
-      icon.src="second.png";
-
-  }
-
-
-
-  else{
-
-  icon.src="three.png";
- }
-
-};
-</script>
+<script src="js/longscrolling.js"></script>
 </body>
 </html>
