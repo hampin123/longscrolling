@@ -27,7 +27,7 @@ window.onscroll = function(){
   }
 
 
-  else if(y < 9000){
+  else if(y < 8600){
 
       icon.src="second.png";
 
