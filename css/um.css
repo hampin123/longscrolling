@@ -24,55 +24,64 @@ h1{  border:2px solid blue;
      background-color:yellow;
      position:absolute;
      width:200px;
-     height:30px;
+     height:70px;
      top:120px;
      left:100px;
      z-index:-2;
      opacity:0.9;
+    font-family: 'Poiret One', cursive;
 }
 
 h2{  border:2px solid blue;
-     background-color:yellow;
+     background-color:white;
      position:absolute;
      width:200px;
-     height:120px;
+     height:140px;
      top:2700px;
      left:100px;
      z-index:-2;
      opacity:0.9;
+    font-family: 'Poiret One', cursive;
+    border-radius: 0px 200px 200px 0px;
+-moz-border-radius: 0px 200px 200px 0px;
+-webkit-border-radius: 0px 200px 200px 0px;
+border: 0px solid #000000;
 }
 
 h3{  border:2px solid blue;
-     background-color:yellow;
+     background-color:#e7a61a;
      position:absolute;
      width:200px;
-     height:150px;
-     top:5300px;
+     height:100px;
+     top:5200px;
      left:100px;
      z-index:-2;
      opacity:0.9;
+     font-family: 'Poiret One', cursive;
 }
 
 h4{  border:2px solid blue;
-     background-color:yellow;
+     background-color:green;
      position:absolute;
      width:200px;
      height:120px;
-     top:7000px;
+     top:7100px;
      left:100px;
      z-index:-2;
      opacity:0.9;
+     font-family: 'Poiret One', cursive;
 }
 
 p{  border:2px solid blue;
-     background-color:yellow;
+     background-color:white;
      position:absolute;
      width:200px;
      height:120px;
-     top:8300px;
+     top:8600px;
      left:100px;
      z-index:-2;
      opacity:0.9;
+     font-family: 'Poiret One', cursive;
 }
 
 
